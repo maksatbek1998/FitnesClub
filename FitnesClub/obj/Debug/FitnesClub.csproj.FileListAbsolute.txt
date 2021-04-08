@@ -13,3 +13,12 @@ X:\Проекттер\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csproj.Generate
 X:\Проекттер\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csproj.CoreCompileInputs.cache
 X:\Проекттер\FitnesClub\FitnesClub\obj\Debug\FitnesClub.exe
 X:\Проекттер\FitnesClub\FitnesClub\obj\Debug\FitnesClub.pdb
+X:\Проекттер\FitnesClub\FitnesClub\bin\Debug\MaterialDesignColors.dll
+X:\Проекттер\FitnesClub\FitnesClub\bin\Debug\MaterialDesignThemes.Wpf.dll
+X:\Проекттер\FitnesClub\FitnesClub\bin\Debug\MaterialDesignColors.pdb
+X:\Проекттер\FitnesClub\FitnesClub\bin\Debug\MaterialDesignThemes.Wpf.pdb
+X:\Проекттер\FitnesClub\FitnesClub\bin\Debug\MaterialDesignThemes.Wpf.xml
+X:\Проекттер\FitnesClub\FitnesClub\obj\Debug\GlavWindow.g.cs
+X:\Проекттер\FitnesClub\FitnesClub\obj\Debug\App.baml
+X:\Проекттер\FitnesClub\FitnesClub\obj\Debug\GlavWindow.baml
+X:\Проекттер\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csproj.CopyComplete
