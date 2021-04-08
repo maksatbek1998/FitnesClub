@@ -32,7 +32,7 @@
         </Grid>
         <Grid Grid.Row="2" Grid.Column="0" Grid.RowSpan="2" Margin="0,0,0,-0.6">
 
-            <materialDesign:PackIcon Kind="AccountBox"  Width="38" Height="34" Foreground="#007bab" Margin="103,120,-41,0"/>
+            <materialDesign:PackIcon Kind="AccountBox"  Width="36" Height="32" Foreground="#007bab" Margin="103,120,-39,0"/>
 
             <materialDesign:PackIcon Kind="LockOutline"  Width="33" Height="29" Foreground="#007bab" Margin="106,196,-39,0"/>
 

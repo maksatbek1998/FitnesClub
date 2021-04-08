@@ -48,3 +48,5 @@ D:\FitnesClub\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csproj.CoreCompileInput
 D:\FitnesClub\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csproj.CopyComplete
 D:\FitnesClub\FitnesClub\FitnesClub\obj\Debug\FitnesClub.exe
 D:\FitnesClub\FitnesClub\FitnesClub\obj\Debug\FitnesClub.pdb
+X:\Проекттер\FitnesClub\FitnesClub\obj\Debug\Login.g.cs
+X:\Проекттер\FitnesClub\FitnesClub\obj\Debug\Login.baml
