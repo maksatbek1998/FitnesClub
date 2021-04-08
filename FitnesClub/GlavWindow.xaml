@@ -33,7 +33,7 @@
                             <TextBlock Foreground="White"
         VerticalAlignment="Center"
         Margin="16 0 0 0"
-          FontSize="18" FontWeight="DemiBold" Text="cbn"></TextBlock>
+          FontSize="18" FontWeight="DemiBold">Μενώ</TextBlock>
                         </StackPanel>
                         <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
                             <Button Style="{StaticResource MaterialDesignRaisedButton}" Background="#c62828" Width="35" Height="30" Margin="1" Padding="0,6,0,0">
