@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-X:\Проекттер\FitnesClub\FitnesClub\obj\Debug\
+D:\Fitnes\FitnesClub\FitnesClub\obj\Debug\
 FitnesClub
 none
 false
 DEBUG;TRACE
-X:\Проекттер\FitnesClub\FitnesClub\App.xaml
-3-985168973
+D:\Fitnes\FitnesClub\FitnesClub\App.xaml
+4-1644235365
 
-71092030284
-15-1064854815
-GlavWindow.xaml;Login.xaml;MainWindow.xaml;
+81289954805
+15-288313750
+GlavWindow.xaml;Login.xaml;MainWindow.xaml;Windows\Client.xaml;
 
 False
 

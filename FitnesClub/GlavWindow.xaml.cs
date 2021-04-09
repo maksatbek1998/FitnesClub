@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FitnesClub.Windows;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -64,6 +65,12 @@ namespace FitnesClub
         {
             if (e.ChangedButton == MouseButton.Left)
                 this.DragMove();
+        }
+
+        private void ListViewItem_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            GlavGrid.Children.Clear();
+            GlavGrid.Children.Add(new Client());
         }
     }
 }
