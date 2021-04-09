@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\user\Source\Repos\FitnesClub\FitnesClub\obj\Debug\
+C:\Users\user\Source\Repos\FitnesClub\FitnesClub\obj\Release\
 FitnesClub
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\user\Source\Repos\FitnesClub\FitnesClub\App.xaml
 3-985168973
 
-8249670917
+71092030284
 15588738542
 GlavWindow.xaml;Login.xaml;MainWindow.xaml;
 
