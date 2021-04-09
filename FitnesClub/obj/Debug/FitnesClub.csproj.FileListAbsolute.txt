@@ -75,3 +75,5 @@ C:\Users\user\Source\Repos\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csproj.Cor
 C:\Users\user\Source\Repos\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csproj.CopyComplete
 C:\Users\user\Source\Repos\FitnesClub\FitnesClub\obj\Debug\FitnesClub.exe
 C:\Users\user\Source\Repos\FitnesClub\FitnesClub\obj\Debug\FitnesClub.pdb
+C:\Users\user\Source\Repos\FitnesClub\FitnesClub\obj\Debug\Windows\Works.g.cs
+C:\Users\user\Source\Repos\FitnesClub\FitnesClub\obj\Debug\Windows\Works.baml
