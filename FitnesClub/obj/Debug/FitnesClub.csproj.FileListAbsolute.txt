@@ -1,7 +1,6 @@
 X:\Проекттер\FitnesClub\FitnesClub\bin\Debug\FitnesClub.exe.config
 X:\Проекттер\FitnesClub\FitnesClub\bin\Debug\FitnesClub.exe
 X:\Проекттер\FitnesClub\FitnesClub\bin\Debug\FitnesClub.pdb
-X:\Проекттер\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csprojAssemblyReference.cache
 X:\Проекттер\FitnesClub\FitnesClub\obj\Debug\MainWindow.g.cs
 X:\Проекттер\FitnesClub\FitnesClub\obj\Debug\App.g.cs
 X:\Проекттер\FitnesClub\FitnesClub\obj\Debug\FitnesClub_MarkupCompile.cache
