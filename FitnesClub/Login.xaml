@@ -41,13 +41,13 @@
             <Button   Style="{StaticResource MaterialDesignRaisedLightButton}"
 Background="#007bab" Height="Auto" Width="230" HorizontalAlignment="Left"
     materialDesign:ButtonAssist.CornerRadius="5"
-    ToolTip="MaterialDesignRaisedLightButton with Round Corners" Margin="259,85,0,46.4">
+ Margin="259,85,0,46.4">
                 <TextBlock Text="Войти" Foreground="White"/>
             </Button>
             <Button  Click="Button_Click"  Style="{StaticResource MaterialDesignRaisedLightButton}"
 Background="#007bab" Height="Auto" Width="229" HorizontalAlignment="Left"
     materialDesign:ButtonAssist.CornerRadius="5"
-    ToolTip="MaterialDesignRaisedLightButton with Round Corners" Margin="10,85,0,46.4">
+    Margin="10,85,0,46.4">
                 <TextBlock Text="Закрыть" Foreground="White"/>
             </Button>
 

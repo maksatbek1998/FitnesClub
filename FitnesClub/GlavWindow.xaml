@@ -7,7 +7,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="FitnesClub.GlavWindow"
         mc:Ignorable="d"
         Title="GlavWindow" Height="700" Width="1200" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen" Background="{x:Null}">
-    <Grid Margin="7,5,10,10" Background="White" MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+    <Grid Margin="7,5,10,10" Background="White">
         <Grid.Effect>
             <DropShadowEffect BlurRadius="10" ShadowDepth="4" Direction="270" Color="Black" Opacity="0.7"/>
         </Grid.Effect>
@@ -21,15 +21,15 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <!--Title-->
-            <Grid Grid.Row="0" Grid.ColumnSpan="2" MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+            <Grid Grid.Row="0" Grid.ColumnSpan="2" MouseDown="Grid_MouseDown">
                 <materialDesign:ColorZone
   Mode="Inverted"
   Padding="16" Background="#007bab">
                     <DockPanel>
                         <StackPanel
       Orientation="Horizontal">
-                            <ToggleButton
-        Style="{DynamicResource MaterialDesignHamburgerToggleButton}" Foreground="White"/>
+                            <ToggleButton x:Name="MenuIcon" IsChecked="False"
+        Style="{DynamicResource MaterialDesignHamburgerToggleButton}" Foreground="White" Click="ToggleButton_Click"/>
                             <TextBlock Foreground="White"
         VerticalAlignment="Center"
         Margin="16 0 0 0"
@@ -50,19 +50,48 @@
                 </materialDesign:ColorZone>
             </Grid>
             <!--Left Menu-->
-            <Grid Grid.Row="1" Grid.Column="0" Width="250">
-                <Grid Margin="0,0,5,0" Background="#FFF4F4F4">
+            <Grid x:Name="MenuGrid" Grid.Row="1" Grid.Column="0" Width="70">
+                <Grid Margin="0,0,5,0" Background="White">
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="80"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
                     <Grid.Effect>
                         <DropShadowEffect BlurRadius="15" ShadowDepth="1" Direction="0" Color="Black" Opacity="0.5"/>
                     </Grid.Effect>
-                    <Grid Margin="0,0,-0.4,0.4" Grid.RowSpan="2">
-
+                    <Grid>
+                        <StackPanel>
+                            <materialDesign:PackIcon Kind="WeightLifter" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,0" Height="50" Width="50" Foreground="#FF838383"/>
+                            <TextBlock x:Name="Fitnestext" Text="Фитнес клуб" FontSize="15" HorizontalAlignment="Center" Foreground="#FF838383" Visibility="Hidden"/>
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Row="1" Grid.Column="0">
+                        <ListView Foreground="#DD2C2C2C" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                            <ListViewItem>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                    <materialDesign:PackIcon Kind="AccountMultiplePlus" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="3,0,15,0" Height="40" Width="40" Foreground="#FF736D6D"/>
+                                    <TextBlock Text="Добавить клиентов" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF3F3F3F"/>
+                                </StackPanel>
+                            </ListViewItem>
+                            <ListViewItem>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                    <materialDesign:PackIcon Kind="AccountMultiplePlus" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="3,0,15,0" Height="40" Width="40" Foreground="#FF736D6D"/>
+                                    <TextBlock Text="Добавить сотрудников" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF3F3F3F"/>
+                                </StackPanel>
+                            </ListViewItem>
+                            <ListViewItem>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                    <materialDesign:PackIcon Kind="Finance" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="3,0,15,0" Height="40" Width="40" Foreground="#FF736D6D"/>
+                                    <TextBlock Text="Вес отчет" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF3F3F3F"/>
+                                </StackPanel>
+                            </ListViewItem>
+                        </ListView>
                     </Grid>
                 </Grid>
+            </Grid>
+            <!--Lists Grid-->
+            <Grid Grid.Column="1" Grid.Row="1">
+
             </Grid>
         </Grid>
     </Grid>

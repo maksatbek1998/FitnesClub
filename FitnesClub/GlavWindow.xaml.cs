@@ -24,11 +24,6 @@ namespace FitnesClub
             InitializeComponent();
         }
 
-        private void Grid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            this.DragMove();
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.WindowState = WindowState.Minimized;
@@ -49,6 +44,26 @@ namespace FitnesClub
             {
                 this.WindowState = WindowState.Normal;
             }
+        }
+
+        private void ToggleButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (MenuIcon.IsChecked==true)
+            {
+                MenuGrid.Width = 250;
+                Fitnestext.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                Fitnestext.Visibility = Visibility.Collapsed;
+                MenuGrid.Width = 70;
+            }
+        }
+
+        private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Left)
+                this.DragMove();
         }
     }
 }
