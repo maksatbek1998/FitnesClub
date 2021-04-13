@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace FitnesClub.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для Client.xaml
+    /// Логика взаимодействия для Persons.xaml
     /// </summary>
-    public partial class Client : Grid
+    public partial class Persons : Page
     {
-        public Client()
+        public Persons()
         {
             InitializeComponent();
         }

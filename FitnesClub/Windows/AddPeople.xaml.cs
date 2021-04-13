@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FitnesClub
+namespace FitnesClub.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для AddPeople.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AddPeople : Page
     {
-        public MainWindow()
+        public AddPeople()
         {
             InitializeComponent();
         }

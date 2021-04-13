@@ -1,4 +1,5 @@
-﻿using FitnesClub.Windows;
+﻿using FitnesClub.AllClass;
+using FitnesClub.Windows;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +24,8 @@ namespace FitnesClub
         public GlavWindow()
         {
             InitializeComponent();
+            this.MaxWidth = SystemParameters.MaximizedPrimaryScreenWidth;
+            this.MaxHeight = SystemParameters.MaximizedPrimaryScreenHeight;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -66,11 +69,24 @@ namespace FitnesClub
             if (e.ChangedButton == MouseButton.Left)
                 this.DragMove();
         }
-
-        private void ListViewItem_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        private void ListViewItem_PreviewMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            GlavGrid.Children.Clear();
-            GlavGrid.Children.Add(new Client());
+            ShowForms.Show(GlavGrid,new Persons());
+        }
+
+        private void PackIcon_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            ShowForms.Show(GlavGrid, new Persons());
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            ShowForms.Show(GlavGrid, new Persons());
+        }
+
+        private void ListViewItem_PreviewMouseLeftButtonUp_1(object sender, MouseButtonEventArgs e)
+        {
+            ShowForms.Show(GlavGrid, new AddPeople());
         }
     }
 }
