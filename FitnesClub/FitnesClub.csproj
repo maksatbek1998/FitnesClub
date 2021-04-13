@@ -67,6 +67,9 @@
     <Compile Include="Windows\AddPeople.xaml.cs">
       <DependentUpon>AddPeople.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\AddWork.xaml.cs">
+      <DependentUpon>AddWork.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\AddWorks.xaml.cs">
       <DependentUpon>AddWorks.xaml</DependentUpon>
     </Compile>
@@ -92,6 +95,10 @@
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
     <Page Include="Windows\AddPeople.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AddWork.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
