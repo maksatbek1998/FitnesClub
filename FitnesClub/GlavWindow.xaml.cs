@@ -88,5 +88,10 @@ namespace FitnesClub
         {
             ShowForms.Show(GlavGrid, new AddPeople());
         }
+
+        private void ListViewItem_PreviewMouseLeftButtonUp_2(object sender, MouseButtonEventArgs e)
+        {
+            ShowForms.Show(GlavGrid, new AddWorks());
+        }
     }
 }

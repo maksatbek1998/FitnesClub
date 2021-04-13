@@ -105,3 +105,5 @@ X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\Persons.g.cs
 X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\Persons.baml
 X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\AddPeople.g.cs
 X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\AddPeople.baml
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\AddWorks.g.cs
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\AddWorks.baml
