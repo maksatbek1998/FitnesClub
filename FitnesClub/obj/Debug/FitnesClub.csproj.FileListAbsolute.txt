@@ -85,7 +85,6 @@ X:\Project\FitnesClub\FitnesClub\bin\Debug\MaterialDesignThemes.Wpf.dll
 X:\Project\FitnesClub\FitnesClub\bin\Debug\MaterialDesignColors.pdb
 X:\Project\FitnesClub\FitnesClub\bin\Debug\MaterialDesignThemes.Wpf.pdb
 X:\Project\FitnesClub\FitnesClub\bin\Debug\MaterialDesignThemes.Wpf.xml
-X:\Project\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csprojAssemblyReference.cache
 X:\Project\FitnesClub\FitnesClub\obj\Debug\GlavWindow.g.cs
 X:\Project\FitnesClub\FitnesClub\obj\Debug\Login.g.cs
 X:\Project\FitnesClub\FitnesClub\obj\Debug\App.g.cs
