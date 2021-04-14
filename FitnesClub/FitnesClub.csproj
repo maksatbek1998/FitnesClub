@@ -67,11 +67,23 @@
     <Compile Include="Windows\AddPeople.xaml.cs">
       <DependentUpon>AddPeople.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\AddWork.xaml.cs">
+      <DependentUpon>AddWork.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\AddWorks.xaml.cs">
       <DependentUpon>AddWorks.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\FindCard.xaml.cs">
+      <DependentUpon>FindCard.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\Persons.xaml.cs">
       <DependentUpon>Persons.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowGrafik.xaml.cs">
+      <DependentUpon>WindowGrafik.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Works.xaml.cs">
+      <DependentUpon>Works.xaml</DependentUpon>
     </Compile>
     <Page Include="GlavWindow.xaml">
       <SubType>Designer</SubType>
@@ -95,11 +107,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Windows\AddWork.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\AddWorks.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Windows\FindCard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\Persons.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowGrafik.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Works.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

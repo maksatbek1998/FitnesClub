@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 X:\Project\FitnesClub\FitnesClub\App.xaml
-5-1556559628
+91541428765
 
-101065570113
+15-1899222565
 15-521878271
-GlavWindow.xaml;Login.xaml;Windows\AddPeople.xaml;Windows\AddWorks.xaml;Windows\Persons.xaml;
+GlavWindow.xaml;Login.xaml;Windows\AddPeople.xaml;Windows\AddWork.xaml;Windows\AddWorks.xaml;Windows\FindCard.xaml;Windows\Persons.xaml;Windows\WindowGrafik.xaml;Windows\Works.xaml;
 
-False
+True
 

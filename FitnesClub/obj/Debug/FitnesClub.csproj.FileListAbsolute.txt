@@ -106,3 +106,12 @@ X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\AddPeople.g.cs
 X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\AddPeople.baml
 X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\AddWorks.g.cs
 X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\AddWorks.baml
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\AddWork.g.cs
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\AddWork.baml
+X:\Project\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csprojAssemblyReference.cache
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\WindowGrafik.g.cs
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\WindowGrafik.baml
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\Works.g.cs
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\Works.baml
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\FindCard.g.cs
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\FindCard.baml
