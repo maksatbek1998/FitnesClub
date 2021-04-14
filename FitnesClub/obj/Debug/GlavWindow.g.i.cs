@@ -68,7 +68,7 @@ namespace FitnesClub {
         #line hidden
         
         
-        #line 112 "..\..\GlavWindow.xaml"
+        #line 118 "..\..\GlavWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Frame GlavGrid;
         
@@ -203,12 +203,20 @@ namespace FitnesClub {
             case 14:
             
             #line 94 "..\..\GlavWindow.xaml"
-            ((System.Windows.Controls.ListViewItem)(target)).PreviewMouseLeftButtonUp += new System.Windows.Input.MouseButtonEventHandler(this.ListViewItem_PreviewMouseLeftButtonUp_4);
+            ((System.Windows.Controls.ListViewItem)(target)).PreviewMouseLeftButtonUp += new System.Windows.Input.MouseButtonEventHandler(this.ListViewItem_PreviewMouseLeftButtonUp_2);
             
             #line default
             #line hidden
             return;
             case 15:
+            
+            #line 100 "..\..\GlavWindow.xaml"
+            ((System.Windows.Controls.ListViewItem)(target)).PreviewMouseLeftButtonUp += new System.Windows.Input.MouseButtonEventHandler(this.ListViewItem_PreviewMouseLeftButtonUp_4);
+            
+            #line default
+            #line hidden
+            return;
+            case 16:
             this.GlavGrid = ((System.Windows.Controls.Frame)(target));
             return;
             }

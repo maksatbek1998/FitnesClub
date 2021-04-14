@@ -91,6 +91,12 @@
                                     <TextBlock Text="Добавить сотрудников" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF3F3F3F"/>
                                 </StackPanel>
                             </ListViewItem>
+                            <ListViewItem PreviewMouseLeftButtonUp="ListViewItem_PreviewMouseLeftButtonUp_5">
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                    <materialDesign:PackIcon Kind="AccountGroupOutline" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="3,0,15,0" Height="40" Width="40" Foreground="#FF736D6D"/>
+                                    <TextBlock Text="Все клиенты" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF3F3F3F"/>
+                                </StackPanel>
+                            </ListViewItem>
                             <ListViewItem PreviewMouseLeftButtonUp="ListViewItem_PreviewMouseLeftButtonUp_4">
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
                                     <materialDesign:PackIcon Kind="CreditCardSearchOutline" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="3,0,15,0" Height="40" Width="40" Foreground="#FF736D6D"/>

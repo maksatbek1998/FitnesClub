@@ -103,5 +103,10 @@ namespace FitnesClub
         {
             ShowForms.Show(GlavGrid, new FindCard());
         }
+
+        private void ListViewItem_PreviewMouseLeftButtonUp_5(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }
