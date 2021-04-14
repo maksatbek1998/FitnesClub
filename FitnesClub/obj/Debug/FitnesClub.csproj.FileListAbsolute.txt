@@ -115,3 +115,41 @@ X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\Works.g.cs
 X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\Works.baml
 X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\FindCard.g.cs
 X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\FindCard.baml
+D:\C# projects\FitnesClub\FitnesClub\bin\Debug\FitnesClub.exe.config
+D:\C# projects\FitnesClub\FitnesClub\bin\Debug\FitnesClub.exe
+D:\C# projects\FitnesClub\FitnesClub\bin\Debug\FitnesClub.pdb
+D:\C# projects\FitnesClub\FitnesClub\bin\Debug\MaterialDesignColors.dll
+D:\C# projects\FitnesClub\FitnesClub\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\C# projects\FitnesClub\FitnesClub\bin\Debug\MaterialDesignColors.pdb
+D:\C# projects\FitnesClub\FitnesClub\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\C# projects\FitnesClub\FitnesClub\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csprojAssemblyReference.cache
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\GlavWindow.g.cs
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Login.g.cs
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Windows\AddPeople.g.cs
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Windows\AddWork.g.cs
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Windows\AddWorks.g.cs
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Windows\FindCard.g.cs
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Windows\Persons.g.cs
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Windows\WindowGrafik.g.cs
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Windows\Works.g.cs
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\App.g.cs
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\FitnesClub_MarkupCompile.cache
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\FitnesClub_MarkupCompile.lref
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\App.baml
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\GlavWindow.baml
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Login.baml
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Windows\AddPeople.baml
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Windows\AddWork.baml
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Windows\AddWorks.baml
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Windows\FindCard.baml
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Windows\Persons.baml
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Windows\WindowGrafik.baml
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\Windows\Works.baml
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\FitnesClub.g.resources
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\FitnesClub.Properties.Resources.resources
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csproj.GenerateResource.cache
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csproj.CoreCompileInputs.cache
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csproj.CopyComplete
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\FitnesClub.exe
+D:\C# projects\FitnesClub\FitnesClub\obj\Debug\FitnesClub.pdb
