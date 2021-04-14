@@ -1,14 +1,22 @@
-﻿using MySql.Data.MySqlClient;
-using System.Data;
+﻿
+using System.Security.Cryptography;
+using System.Text;
+
 namespace FitnesClub.AllClass
 {
     class DataBase
     {
-        public MySqlConnection connection = new MySqlConnection("datasource=192.168.0.104; port=3306;Initial Catalog='fitness';username=fitness;password=12345;CharSet=utf8;");
+        public DataBase(string x = null)
+        {
+            
+        }
+        public MySqlConnection connection = new MySqlConnection("datasource=" + UserStaticInfo.ip + "; port=3306;Initial Catalog='rskbank';username=admin;password=1;CharSet=utf8;");
+        //public MySqlConnection connection = new MySqlConnection("datasource=localhost; port=3306;Initial Catalog='rskbank';username=root;password=;CharSet=utf8;");
         public delegate void SendData(DataTable data);
         public event SendData del;
         public void SoursData(string s)
         {
+
             connection.Close();
             connection.Open();
             MySqlCommand cmd = connection.CreateCommand();
@@ -58,6 +66,23 @@ namespace FitnesClub.AllClass
             connection.Close();
             return value;
         }
+       
+        public static string ComputeSha256Hash(string rawData)
+        {
+            // Create a SHA256   
+            using (SHA256 sha256Hash = SHA256.Create())
+            {
+                // ComputeHash - returns byte array  
+                byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(rawData));
 
+                // Convert byte array to a string   
+                StringBuilder builder = new StringBuilder();
+                for (int i = 0; i < bytes.Length; i++)
+                {
+                    builder.Append(bytes[i].ToString("x2"));
+                }
+                return builder.ToString();
+            }
+        }
     }
 }
