@@ -32,16 +32,16 @@
                     <materialDesign:PackIcon Kind="Cash100" Canvas.Left="646" Canvas.Top="32" Height="25" Width="30" Foreground="{DynamicResource IconColor}" />
                     <TextBox materialDesign:HintAssist.Hint="Карта ID" IsReadOnly="True" materialDesign:TextFieldAssist.HasClearButton="True" Width="260" BorderBrush="#FF007BAB" Style="{StaticResource MaterialDesignFloatingHintTextBox}" CaretBrush="#FF007BAB" Canvas.Left="684" Canvas.Top="145" FontSize="14"/>
                     <materialDesign:PackIcon Kind="CreditCardPlusOutline" Canvas.Left="646" Canvas.Top="161" Height="25" Width="30" Foreground="{DynamicResource IconColor}" />
-                    <Button Height="28" Width="29" Padding="0" Background="{DynamicResource IconColor}" Canvas.Left="967" Canvas.Top="68">
+                    <Button Height="28" Width="29" Padding="0" Background="{DynamicResource IconColor}" Canvas.Left="967" Canvas.Top="68" Click="Button_Click">
                         <materialDesign:PackIcon Kind="Plus" Foreground="White" FontWeight="Bold" Width="25" Height="30"/>
                     </Button>
-                    <Button Padding="0" Background="#FF007BAB" Canvas.Left="130" Canvas.Top="207" Width="89" Height="22">
+                    <Button Padding="0" Background="#FF007BAB" Canvas.Left="130" Canvas.Top="207" Width="89" Height="25">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="Plus" Foreground="White" FontWeight="Bold" Width="20" Height="20" Margin="-2,0,0,0" VerticalAlignment="Center"/>
                             <TextBlock Text="Добавить" Foreground="White" VerticalAlignment="Center" Margin="1,0,0,0"/>
                         </StackPanel>
                     </Button>
-                    <Button Padding="0" Background="#FF007BAB" Canvas.Left="47" Canvas.Top="207" Width="80" Height="22">
+                    <Button Padding="0" Background="#FF007BAB" Canvas.Left="47" Canvas.Top="207" Width="80" Height="25">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="Delete" Foreground="#FFE25353" FontWeight="Bold" Width="20" Height="20" VerticalAlignment="Center"/>
                             <TextBlock Text="Удалить" Foreground="White" VerticalAlignment="Center" Margin="1,0,0,0"/>
@@ -68,7 +68,7 @@
                     </Button>
                     <ComboBox IsEnabled="{Binding Path=IsChecked, ElementName=RadioTarif}" materialDesign:HintAssist.Hint="Тарифи"  IsEditable="True" Canvas.Left="738" Canvas.Top="71" FontSize="14" Width="206" BorderBrush="#FF007BAB" Background="White" Foreground="Black" Style="{x:Null}" BorderThickness="0,0,0,2" Height="27"/>
                     <ComboBox IsEnabled="{Binding Path=IsChecked, ElementName=RadioTarif}" materialDesign:HintAssist.Hint="Тарифи"  IsEditable="True" Canvas.Left="738" Canvas.Top="71" FontSize="14" Width="206" BorderBrush="#FF007BAB" Background="White" Foreground="Black" Style="{x:Null}" BorderThickness="0,0,0,2" Height="27"/>
-                    <Button Height="28" Width="29" Padding="0" Background="{DynamicResource IconColor}" Canvas.Left="967" Canvas.Top="112">
+                    <Button Height="28" Width="29" Padding="0" Background="{DynamicResource IconColor}" Canvas.Left="967" Canvas.Top="112" Click="Button_Click_1">
                         <materialDesign:PackIcon Kind="Plus" Foreground="White" FontWeight="Bold" Width="25" Height="30"/>
                     </Button>
                     <ComboBox IsEnabled="{Binding IsChecked, ElementName=RadioTarif}" materialDesign:HintAssist.Hint="Тарифи"  IsEditable="True" Canvas.Left="738" Canvas.Top="113" FontSize="14" Width="206" BorderBrush="#FF007BAB" Background="White" Foreground="Black" Style="{x:Null}" BorderThickness="0,0,0,2" Height="27"/>

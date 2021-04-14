@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:FitnesClub"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="FitnesClub.GlavWindow"
         mc:Ignorable="d"
-        Title="GlavWindow" Height="700" Width="1200" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen" Background="{x:Null}" Loaded="Window_Loaded">
+        Title="GlavWindow" Height="700" Width="1300" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen" Background="{x:Null}" Loaded="Window_Loaded">
     <Grid Margin="7,5,7,10" Background="White">
         <Grid.Effect>
             <DropShadowEffect BlurRadius="10" ShadowDepth="4" Direction="270" Color="Black" Opacity="0.7"/>
@@ -67,6 +67,18 @@
                     </Grid>
                     <Grid Grid.Row="1" Grid.Column="0">
                         <ListView Foreground="#DD2C2C2C" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                            <ListViewItem PreviewMouseLeftButtonUp="ListViewItem_PreviewMouseLeftButtonUp">
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                    <materialDesign:PackIcon Kind="AccountDetails" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="3,0,15,0" Height="40" Width="40" Foreground="#FF736D6D"/>
+                                    <TextBlock Text="Клиенты сегодня" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF3F3F3F"/>
+                                </StackPanel>
+                            </ListViewItem>
+                            <ListViewItem PreviewMouseLeftButtonUp="ListViewItem_PreviewMouseLeftButtonUp_3">
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                    <materialDesign:PackIcon Kind="AccountClock" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="3,0,15,0" Height="40" Width="40" Foreground="#FF736D6D"/>
+                                    <TextBlock Text="Рабочие сегодня" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF3F3F3F"/>
+                                </StackPanel>
+                            </ListViewItem>
                             <ListViewItem PreviewMouseLeftButtonUp="ListViewItem_PreviewMouseLeftButtonUp_1">
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
                                     <materialDesign:PackIcon Kind="AccountMultiplePlus" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="3,0,15,0" Height="40" Width="40" Foreground="#FF736D6D"/>
@@ -75,11 +87,17 @@
                             </ListViewItem>
                             <ListViewItem PreviewMouseLeftButtonUp="ListViewItem_PreviewMouseLeftButtonUp_2">
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
-                                    <materialDesign:PackIcon Kind="AccountTie" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="3,0,15,0" Height="40" Width="40" Foreground="#FF736D6D"/>
+                                    <materialDesign:PackIcon Kind="AccountPlus" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="3,0,15,0" Height="40" Width="40" Foreground="#FF736D6D"/>
                                     <TextBlock Text="Добавить сотрудников" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF3F3F3F"/>
                                 </StackPanel>
                             </ListViewItem>
-                            <ListViewItem PreviewMouseLeftButtonUp="ListViewItem_PreviewMouseLeftButtonUp" >
+                            <ListViewItem PreviewMouseLeftButtonUp="ListViewItem_PreviewMouseLeftButtonUp_4">
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                    <materialDesign:PackIcon Kind="CreditCardSearchOutline" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="3,0,15,0" Height="40" Width="40" Foreground="#FF736D6D"/>
+                                    <TextBlock Text="Найдите владельца карты" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF3F3F3F"/>
+                                </StackPanel>
+                            </ListViewItem>
+                            <ListViewItem  >
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
                                     <materialDesign:PackIcon Kind="Finance" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="3,0,15,0" Height="40" Width="40" Foreground="#FF736D6D"/>
                                     <TextBlock Text="Вес отчет" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF3F3F3F"/>

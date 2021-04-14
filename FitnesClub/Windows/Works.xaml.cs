@@ -16,25 +16,13 @@ using System.Windows.Shapes;
 namespace FitnesClub.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для AddWorks.xaml
+    /// Логика взаимодействия для Works.xaml
     /// </summary>
-    public partial class AddWorks : Page
+    public partial class Works : Page
     {
-        public AddWorks()
+        public Works()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            AddWork addWork = new AddWork();
-            addWork.ShowDialog();
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            WindowGrafik windowGrafik = new WindowGrafik();
-            windowGrafik.ShowDialog();
         }
     }
 }

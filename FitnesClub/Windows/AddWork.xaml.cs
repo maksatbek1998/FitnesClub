@@ -10,31 +10,27 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace FitnesClub.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для AddWorks.xaml
+    /// Логика взаимодействия для AddWork.xaml
     /// </summary>
-    public partial class AddWorks : Page
+    public partial class AddWork : Window
     {
-        public AddWorks()
+        public AddWork()
         {
             InitializeComponent();
         }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            AddWork addWork = new AddWork();
-            addWork.ShowDialog();
+            this.Close();
         }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Canvas_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            WindowGrafik windowGrafik = new WindowGrafik();
-            windowGrafik.ShowDialog();
+            if (e.ChangedButton == MouseButton.Left)
+                this.DragMove();
         }
     }
 }
