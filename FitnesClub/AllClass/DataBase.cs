@@ -1,6 +1,9 @@
 ﻿
 using System.Security.Cryptography;
 using System.Text;
+using MySql.Data.MySqlClient;
+using MySql.Data;
+using System.Data;
 
 namespace FitnesClub.AllClass
 {
@@ -10,7 +13,7 @@ namespace FitnesClub.AllClass
         {
             
         }
-        public MySqlConnection connection = new MySqlConnection("datasource=" + UserStaticInfo.ip + "; port=3306;Initial Catalog='rskbank';username=admin;password=1;CharSet=utf8;");
+        public MySqlConnection connection = new MySqlConnection("datasource=; port=3306;Initial Catalog='rskbank';username=admin;password=1;CharSet=utf8;");
         //public MySqlConnection connection = new MySqlConnection("datasource=localhost; port=3306;Initial Catalog='rskbank';username=root;password=;CharSet=utf8;");
         public delegate void SendData(DataTable data);
         public event SendData del;
