@@ -106,7 +106,12 @@ namespace FitnesClub
 
         private void ListViewItem_PreviewMouseLeftButtonUp_5(object sender, MouseButtonEventArgs e)
         {
+            ShowForms.Show(GlavGrid, new AllClient());
+        }
 
+        private void ListViewItem_PreviewMouseLeftButtonUp_6(object sender, MouseButtonEventArgs e)
+        {
+            ShowForms.Show(GlavGrid, new Archive());
         }
     }
 }
