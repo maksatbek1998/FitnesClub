@@ -153,3 +153,9 @@ X:\NewProject\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csproj.CoreCompileInput
 X:\NewProject\FitnesClub\FitnesClub\obj\Debug\FitnesClub.csproj.CopyComplete
 X:\NewProject\FitnesClub\FitnesClub\obj\Debug\FitnesClub.exe
 X:\NewProject\FitnesClub\FitnesClub\obj\Debug\FitnesClub.pdb
+X:\NewProject\FitnesClub\FitnesClub\obj\Debug\Windows\AllClient.g.cs
+X:\NewProject\FitnesClub\FitnesClub\obj\Debug\Windows\AllClient.baml
+X:\NewProject\FitnesClub\FitnesClub\obj\Debug\Windows\Archive.g.cs
+X:\NewProject\FitnesClub\FitnesClub\obj\Debug\Windows\Archive.baml
+X:\NewProject\FitnesClub\FitnesClub\obj\Debug\Windows\AllWorks.g.cs
+X:\NewProject\FitnesClub\FitnesClub\obj\Debug\Windows\AllWorks.baml

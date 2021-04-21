@@ -73,6 +73,15 @@
     <Compile Include="Windows\AddWorks.xaml.cs">
       <DependentUpon>AddWorks.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\AllClient.xaml.cs">
+      <DependentUpon>AllClient.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AllWorks.xaml.cs">
+      <DependentUpon>AllWorks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Archive.xaml.cs">
+      <DependentUpon>Archive.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\FindCard.xaml.cs">
       <DependentUpon>FindCard.xaml</DependentUpon>
     </Compile>
@@ -112,6 +121,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\AddWorks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AllClient.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AllWorks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Archive.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

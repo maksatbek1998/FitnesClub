@@ -1,12 +1,4 @@
 ﻿
-FX:\NewProject\FitnesClub\FitnesClub\App.xaml;;
-FX:\NewProject\FitnesClub\FitnesClub\GlavWindow.xaml;;
-FX:\NewProject\FitnesClub\FitnesClub\Login.xaml;;
-FX:\NewProject\FitnesClub\FitnesClub\Windows\AddPeople.xaml;;
-FX:\NewProject\FitnesClub\FitnesClub\Windows\AddWork.xaml;;
-FX:\NewProject\FitnesClub\FitnesClub\Windows\AddWorks.xaml;;
-FX:\NewProject\FitnesClub\FitnesClub\Windows\FindCard.xaml;;
-FX:\NewProject\FitnesClub\FitnesClub\Windows\Persons.xaml;;
-FX:\NewProject\FitnesClub\FitnesClub\Windows\WindowGrafik.xaml;;
-FX:\NewProject\FitnesClub\FitnesClub\Windows\Works.xaml;;
+
+FX:\NewProject\FitnesClub\FitnesClub\Windows\AllWorks.xaml;;
 
