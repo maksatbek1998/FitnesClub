@@ -159,3 +159,11 @@ X:\NewProject\FitnesClub\FitnesClub\obj\Debug\Windows\Archive.g.cs
 X:\NewProject\FitnesClub\FitnesClub\obj\Debug\Windows\Archive.baml
 X:\NewProject\FitnesClub\FitnesClub\obj\Debug\Windows\AllWorks.g.cs
 X:\NewProject\FitnesClub\FitnesClub\obj\Debug\Windows\AllWorks.baml
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\AllClient.g.cs
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\AllWorks.g.cs
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\Archive.g.cs
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\AllClient.baml
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\AllWorks.baml
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\Archive.baml
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\Otchet.g.cs
+X:\Project\FitnesClub\FitnesClub\obj\Debug\Windows\Otchet.baml
