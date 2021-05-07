@@ -21,20 +21,6 @@
                     <materialDesign:PackIcon Kind="Account" Canvas.Left="234" Canvas.Top="32" Height="29" Width="30" Foreground="{DynamicResource IconColor}" />
                     <TextBox materialDesign:HintAssist.Hint="Алына турчу акча"  materialDesign:TextFieldAssist.HasClearButton="True" Width="260" BorderBrush="#FF007BAB" Style="{StaticResource MaterialDesignFloatingHintTextBox}" CaretBrush="#FF007BAB" Canvas.Left="273" Canvas.Top="62" FontSize="14"/>
                     <materialDesign:PackIcon Kind="Cash100" Canvas.Left="236" Canvas.Top="78" Height="25" Width="30" Foreground="{DynamicResource IconColor}" />
-                    <ComboBox IsEnabled="{Binding IsChecked, ElementName=RadioTarif}" materialDesign:HintAssist.Hint="Тарифи"  IsEditable="True" Canvas.Left="333" Canvas.Top="146" FontSize="14" Width="206" BorderBrush="#FF007BAB" Background="White" Foreground="Black" Style="{x:Null}" BorderThickness="0,0,0,2" Height="26">
-                        <ComboBoxItem
-                            Content="Apple" />
-                        <ComboBoxItem
-                            Content="Banana" />
-                        <ComboBoxItem
-                            Content="Pear" />
-                        <ComboBoxItem
-                            Content="Orange" />
-                    </ComboBox>
-                    <RadioButton x:Name="RadioTarif" Content="С тарифом"  Style="{StaticResource MaterialDesignRadioButton}" Canvas.Left="217" Canvas.Top="150" Foreground="#FF007BAB" FontSize="16" Width="105" IsEnabled="{Binding ElementName=Tarif_Limit,Path=IsChecked}"/>
-                    <RadioButton x:Name="RadioLimit"  Content="С лимитом"  Style="{StaticResource MaterialDesignRadioButton}" Canvas.Left="217" Canvas.Top="191" Foreground="#FF007BAB" FontSize="16" IsEnabled="{Binding ElementName=Tarif_Limit,Path=IsChecked}"/>
-                    <TextBox IsEnabled="{Binding IsChecked, ElementName=RadioLimit}" materialDesign:HintAssist.Hint="Лимит"  materialDesign:TextFieldAssist.HasClearButton="True" Width="206" BorderBrush="#FF007BAB" Style="{StaticResource MaterialDesignFloatingHintTextBox}" CaretBrush="#FF007BAB" Canvas.Left="333" Canvas.Top="173" FontSize="14"/>
-                    <CheckBox x:Name="Tarif_Limit" IsChecked="False"  Content="Изменит тариф или лимит" materialDesign:RippleAssist.IsDisabled="True" Canvas.Left="234" Canvas.Top="121" Width="400" Foreground="#FF007BAB" BorderBrush="#FF007BAB" FontSize="14"/>
                     <Button Padding="0" Background="#FF007BAB" Canvas.Left="718" Canvas.Top="179" Width="152" Height="35">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="Delete" Foreground="White" FontWeight="Bold" Width="20" Height="20" Margin="-2,0,0,0" VerticalAlignment="Center"/>
